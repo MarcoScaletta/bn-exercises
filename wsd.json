@@ -1,0 +1,101 @@
+{
+  "wsd_list": [
+    {
+      "word": "pianta",
+      "sentences": [
+        {
+          "sentence": "La pianta dell'alloggio è disponibile in ufficio, accanto all'appartamento; dal disegno è possibile cogliere i dettagli dell'architettura dello stabile, sulla distribuzione dei vani e la disposizione di porte e finestre.",
+          "sense": "bn:00035318n"
+        },
+        {
+          "sentence": "I platani sono piante ad alto fusto, organismi viventi: non ha senso toglierli per fare posto a un parcheggio.",
+          "sense": "bn:00035324n"
+        },
+        {
+          "sentence": "Non riesce ad appoggiare la pianta del piede perché ha un profondo taglio vicino all’alluce.",
+          "sense": "bn:15908786n"
+        }
+      ]
+    },
+    {
+      "word": "testa",
+      "sentences": [
+        {
+          "sentence": "Si tratta di un uomo facilmente riconoscibile: ha una testa piccola, gli occhi sporgenti, naso adunco e piccole orecchie a sventola.",
+          "sense": "bn:00015784n"
+        },
+        {
+          "sentence": "Come per tutte le cose, bisogna usare la testa, una punta di cervello, per non prendere decisioni fuori dal senso dell’intelletto.",
+          "sense":"bn:00012681n"
+        },
+        {
+          "sentence": "La testa della struttura di parsing è l’elemento che corrisponde al sintagma più alto dell’albero; in genere si tratta di un verbo.",
+          "sense":"bn:00075736n"
+        }
+      ]
+    },
+    {
+      "word": "cavallo",
+      "sentences": [
+        {
+          "sentence": "Amo andare a cavallo, ogni mattino, nel parco.",
+          "sense":"bn:00031345n"
+        },
+        {
+          "sentence": "Il cavallo di questi calzoni è troppo basso per la mia taglia.",
+          "sense":"bn:09059706n"
+        },
+        {
+          "sentence": "In palestra sono bravissima nel saltare il cavallo.",
+          "sense":"bn:00042327n"
+        },
+        {
+          "sentence": "La mia macchina ha 120 cavalli di potenza.",
+          "sense":"bn:00042378n"
+        },
+        {
+          "sentence": "Mi manca poco per concludere il lavoro: sono quasi a cavallo.",
+          "sense": null
+        }
+      ]
+    },
+    {
+      "word": "fattore",
+      "sentences": [
+        {
+          "sentence": "Il fattore dirige la coltivazione dei campi per conto dei proprietari.",
+          "sense":"bn:00033687n"
+        },
+        {
+          "sentence": "Il fattore principale del suo successo è la sua attitudine analitica.",
+          "sense":"bn:00032661n"
+        },
+        {
+          "sentence": "I due fattori dell’espressione devono soddisfare la proprietà di essere primi fra loro.",
+          "sense":"bn:00056300n"
+        }
+      ]
+    },
+    {
+      "word": "rombo",
+      "sentences": [
+        {
+          "sentence": "Il rombo è un pesce di mare; porta entrambi gli occhi su di un lato, nella fattispecie il sinistro, ed ha il lato privo di occhi roseo e senza pigmenti; ha la tipica forma quadrangolare.",
+          "sense":"bn:00035104n"
+        },
+        {
+          "sentence": "Il rombo è una figura geometrica i cui quattro lati hanno la stessa lunghezza.",
+          "sense":"bn:00026849n"
+        },
+        {
+          "sentence": "Ognuna delle 32 sezioni in cui si divide la rosa della bussola, e che corrispondono alle principali direzioni del vento, si dice rombo.",
+          "sense":null
+        },
+        {
+          "sentence": "Le vettovaglie caddero, producendo un rumore sordo, profondo e cupo, simile al rombo di un tuono.",
+          "sense":"bn:00012146n"
+        }
+      ]
+    }
+  ]
+}
