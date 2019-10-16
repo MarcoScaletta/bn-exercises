@@ -12,6 +12,7 @@ class Babelnet:
         self.API_call_number = 0
         self.cached_synsets = dict()
         self.cached_synset_ids = dict()
+        self.cached_outgoing_edges = dict()
 
     def get_version(self):
         return self.babelnet_http_request("getVersion")['version']
@@ -36,7 +37,12 @@ class Babelnet:
         return synset
 
     def get_outgoing_edges(self,synset_id: str):
-        return self.babelnet_http_request("getOutgoingEdges", {"id": synset_id})
+        if synset_id not in self.cached_outgoing_edges:
+            outgoing_edges = self.babelnet_http_request("getOutgoingEdges", {"id": synset_id})
+            self.cached_outgoing_edges[synset_id] = outgoing_edges
+        else:
+            outgoing_edges = self.cached_outgoing_edges[synset_id]
+        return outgoing_edges
     
 
     def babelnet_http_request(self, url:str, params: dict = dict()):
@@ -48,6 +54,7 @@ class Babelnet:
             sys.exit(1)
         if resp.status_code is not 200:
             print(resp._content)
+            print(url, params)
             print("Error code", resp.status_code)
             sys.exit(1)
         if 'message' in resp.json() and str(resp.json()['message']).startswith('Your key is not valid'):
@@ -62,6 +69,14 @@ class Babelnet:
         for synset_id in synset_ids:
             definitions[synset_id['id']] = self.get_synset_definition(synset_id['id'])
         return definitions
+
+    def get_all_synonyms(self, synset_id):
+        synset = self.get_synset(synset_id)
+        synonyms_lemma = list()
+        if len(synset['senses']) > 0: 
+            for sense in synset['senses']:
+                synonyms_lemma.append(sense['properties']['fullLemma'])
+        return synonyms_lemma
 
     def get_synset_definition(self, synset_id):
         synset = self.get_synset(synset_id)
