@@ -1,0 +1,457 @@
+{
+    "accuracy": 0.5,
+    "wsd_list": [
+        {
+            "word": "pianta",
+            "accuracy": 1.0,
+            "sentences": [
+                {
+                    "sentence": "La pianta dell'alloggio è disponibile in ufficio, accanto all'appartamento; dal disegno è possibile cogliere i dettagli dell'architettura dello stabile, sulla distribuzione dei vani e la disposizione di porte e finestre.",
+                    "sense": "bn:00035318n",
+                    "best_sense": "bn:00035318n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "pianta_(architettura)",
+                        "icnografia",
+                        "pianta",
+                        "pianta_del_piano",
+                        "planimetria",
+                        "planimetria_piano",
+                        "Icnografia",
+                        "pianta_del_piano",
+                        "pianta",
+                        "pianta",
+                        "planimetrie"
+                    ]
+                },
+                {
+                    "sentence": "I platani sono piante ad alto fusto, organismi viventi: non ha senso toglierli per fare posto a un parcheggio.",
+                    "sense": "bn:00035324n",
+                    "best_sense": "bn:00035324n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "organismo_vegetale",
+                        "pianta",
+                        "vegetale",
+                        "organismo_vegetale",
+                        "pianta",
+                        "vegetale",
+                        "flora",
+                        "Plantae",
+                        "flora",
+                        "Floristica",
+                        "pianta",
+                        "Piante",
+                        "Plantae",
+                        "Plantæ",
+                        "flora",
+                        "pianta",
+                        "specie_vegetale",
+                        "vegetazione",
+                        "vita_vegetale",
+                        "flora",
+                        "Floristica",
+                        "Piante",
+                        "Plantæ",
+                        "Regno_vegetale",
+                        "vegetale",
+                        "Vegetale",
+                        "Vegetali",
+                        "Flora_(botanica)",
+                        "Pianta_(botanica)",
+                        "pianta_(botanica)",
+                        "flora",
+                        "flore",
+                        "piante",
+                        "specie_di_piante",
+                        "flora",
+                        "pianta"
+                    ]
+                },
+                {
+                    "sentence": "Non riesce ad appoggiare la pianta del piede perché ha un profondo taglio vicino all’alluce.",
+                    "sense": "bn:15908786n",
+                    "best_sense": "bn:15908786n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "pianta_del_piede",
+                        "pianta_del_piede",
+                        "pianta",
+                        "pianta_del_piede",
+                        "pianta"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "testa",
+            "accuracy": 0.6666666666666666,
+            "sentences": [
+                {
+                    "sentence": "Si tratta di un uomo facilmente riconoscibile: ha una testa piccola, gli occhi sporgenti, naso adunco e piccole orecchie a sventola.",
+                    "sense": "bn:00015784n",
+                    "best_sense": "bn:00015784n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "capo",
+                        "capoccia",
+                        "chiorba",
+                        "cranio",
+                        "testa",
+                        "zucca",
+                        "capo",
+                        "capoccia",
+                        "chiorba",
+                        "cranio",
+                        "testa",
+                        "zucca",
+                        "testa",
+                        "Cefalica",
+                        "testa",
+                        "testa",
+                        "Calotta_cranica",
+                        "Cefalica",
+                        "cefalica",
+                        "testa",
+                        "testa"
+                    ]
+                },
+                {
+                    "sentence": "Come per tutte le cose, bisogna usare la testa, una punta di cervello, per non prendere decisioni fuori dal senso dell’intelletto.",
+                    "sense": "bn:00012681n",
+                    "best_sense": "bn:00012681n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "psiche",
+                        "psiche",
+                        "psicologia",
+                        "cervello",
+                        "mente",
+                        "pensiero",
+                        "psiche",
+                        "psicologia",
+                        "testa",
+                        "mente",
+                        "Nous",
+                        "Psiche",
+                        "Intelletto_cosmico",
+                        "Intelligenza_cosmica",
+                        "mente",
+                        "Nous",
+                        "psiche",
+                        "cervello",
+                        "mente",
+                        "pensiero",
+                        "testare",
+                        "Intelletto_cosmico",
+                        "Intelligenza_cosmica",
+                        "Mente_umana",
+                        "Noos",
+                        "Psiche_(psicologia)",
+                        "mente",
+                        "testa",
+                        "contenuto_mentale",
+                        "mente",
+                        "mente_umana",
+                        "nous",
+                        "psiche"
+                    ]
+                },
+                {
+                    "sentence": "La testa della struttura di parsing è l’elemento che corrisponde al sintagma più alto dell’albero; in genere si tratta di un verbo.",
+                    "sense": "bn:00075736n",
+                    "best_sense": "bn:00015784n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "capo",
+                        "capoccia",
+                        "chiorba",
+                        "cranio",
+                        "testa",
+                        "zucca",
+                        "capo",
+                        "capoccia",
+                        "chiorba",
+                        "cranio",
+                        "testa",
+                        "zucca",
+                        "testa",
+                        "Cefalica",
+                        "testa",
+                        "testa",
+                        "Calotta_cranica",
+                        "Cefalica",
+                        "cefalica",
+                        "testa",
+                        "testa"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "cavallo",
+            "accuracy": 0.2,
+            "sentences": [
+                {
+                    "sentence": "Amo andare a cavallo, ogni mattino, nel parco.",
+                    "sense": "bn:00031345n",
+                    "best_sense": "bn:02131026n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "Cavallo_(zodiaco_cinese)",
+                        "Cavallo"
+                    ]
+                },
+                {
+                    "sentence": "Il cavallo di questi calzoni è troppo basso per la mia taglia.",
+                    "sense": "bn:09059706n",
+                    "best_sense": "bn:00031345n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "cavallo",
+                        "cavallo",
+                        "Equus_caballus",
+                        "Equus_caballus",
+                        "cavallo",
+                        "Equus_caballus",
+                        "cavallo",
+                        "Carne_di_cavallo",
+                        "Cavallo",
+                        "cavallo",
+                        "Equus_ferus_caballus",
+                        "Giumenta",
+                        "Le_razze_equine",
+                        "Razza_equina",
+                        "Razze_equine",
+                        "caballus",
+                        "cavalli",
+                        "cavallo",
+                        "equini",
+                        "cavallo",
+                        "equus_caballus"
+                    ]
+                },
+                {
+                    "sentence": "In palestra sono bravissima nel saltare il cavallo.",
+                    "sense": "bn:00042327n",
+                    "best_sense": "bn:00044843n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "equitazione",
+                        "equitazione",
+                        "Equitazione_inglese",
+                        "Movimento_del_cavallo",
+                        "Sport_equestri",
+                        "Gait",
+                        "Movimento_del_cavallo",
+                        "Single_foot",
+                        "Sport_equestre",
+                        "Sport_equestri",
+                        "cavalieri",
+                        "cavallo",
+                        "equitazione"
+                    ]
+                },
+                {
+                    "sentence": "La mia macchina ha 120 cavalli di potenza.",
+                    "sense": "bn:00042378n",
+                    "best_sense": "bn:00042378n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "cavallo",
+                        "cavallo_vapore",
+                        "cavallo_vapore",
+                        "Cavalli_vapore",
+                        "Cavallo-vapore",
+                        "cavallo_vapore",
+                        "cavallo_vapore",
+                        "cv",
+                        "Cavalli_vapore",
+                        "Cavallo-vapore",
+                        "Cavallo_Vapore",
+                        "cavalli_di_potenza",
+                        "cavalli_di_potenza_nominale",
+                        "cv",
+                        "ihp",
+                        "potenza_al_freno",
+                        "cavalli",
+                        "h.p.",
+                        "hp"
+                    ]
+                },
+                {
+                    "sentence": "Mi manca poco per concludere il lavoro: sono quasi a cavallo.",
+                    "sense": null,
+                    "best_sense": "bn:02131026n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "Cavallo_(zodiaco_cinese)",
+                        "Cavallo"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "fattore",
+            "accuracy": 0.3333333333333333,
+            "sentences": [
+                {
+                    "sentence": "Il fattore dirige la coltivazione dei campi per conto dei proprietari.",
+                    "sense": "bn:00033687n",
+                    "best_sense": "bn:00033687n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "agricoltore",
+                        "coltivatore",
+                        "contadino",
+                        "fattore",
+                        "massaio",
+                        "rurale",
+                        "fattore",
+                        "agricoltore",
+                        "agricoltore",
+                        "Agricoltori",
+                        "Contadina",
+                        "Contadini",
+                        "Contadino",
+                        "Fattorie",
+                        "agricoltore",
+                        "coltivatore",
+                        "contadino",
+                        "agricoltore",
+                        "agricoltrice",
+                        "contadina",
+                        "contadino",
+                        "fattore",
+                        "fattoressa",
+                        "Agricoltori",
+                        "Contadina",
+                        "Contadini",
+                        "Contadino",
+                        "agricoltore",
+                        "agricoltore",
+                        "granger",
+                        "sodbuster",
+                        "agricoltore",
+                        "agricoltori",
+                        "agricoltori"
+                    ]
+                },
+                {
+                    "sentence": "Il fattore principale del suo successo è la sua attitudine analitica.",
+                    "sense": "bn:00032661n",
+                    "best_sense": "bn:00046695n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "influenza",
+                        "influsso",
+                        "fattore",
+                        "influenza",
+                        "influenza"
+                    ]
+                },
+                {
+                    "sentence": "I due fattori dell’espressione devono soddisfare la proprietà di essere primi fra loro.",
+                    "sense": "bn:00056300n",
+                    "best_sense": "bn:00598674n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "fattore"
+                    ]
+                }
+            ]
+        },
+        {
+            "word": "rombo",
+            "accuracy": 0.5,
+            "sentences": [
+                {
+                    "sentence": "Il rombo è un pesce di mare; porta entrambi gli occhi su di un lato, nella fattispecie il sinistro, ed ha il lato privo di occhi roseo e senza pigmenti; ha la tipica forma quadrangolare.",
+                    "sense": "bn:00035104n",
+                    "best_sense": "bn:00064972n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "Psetta_maxima",
+                        "Psetta_maxima",
+                        "rombo",
+                        "Rombo_chiodato",
+                        "Scophthalmus_maximus",
+                        "rombo",
+                        "psetta_maxima"
+                    ]
+                },
+                {
+                    "sentence": "Il rombo è una figura geometrica i cui quattro lati hanno la stessa lunghezza.",
+                    "sense": "bn:00026849n",
+                    "best_sense": "bn:00026849n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "losanga",
+                        "rombo",
+                        "losanga",
+                        "rombo",
+                        "rombo_(geometria)",
+                        "rombo",
+                        "losanga",
+                        "rombo",
+                        "rombo",
+                        "rombo",
+                        "diamante",
+                        "rombi",
+                        "rombo",
+                        "rombo"
+                    ]
+                },
+                {
+                    "sentence": "Ognuna delle 32 sezioni in cui si divide la rosa della bussola, e che corrispondono alle principali direzioni del vento, si dice rombo.",
+                    "sense": null,
+                    "best_sense": "bn:00026849n",
+                    "correctness": "WRONG",
+                    "synonyms": [
+                        "losanga",
+                        "rombo",
+                        "losanga",
+                        "rombo",
+                        "rombo_(geometria)",
+                        "rombo",
+                        "losanga",
+                        "rombo",
+                        "rombo",
+                        "rombo",
+                        "diamante",
+                        "rombi",
+                        "rombo",
+                        "rombo"
+                    ]
+                },
+                {
+                    "sentence": "Le vettovaglie caddero, producendo un rumore sordo, profondo e cupo, simile al rombo di un tuono.",
+                    "sense": "bn:00012146n",
+                    "best_sense": "bn:00012146n",
+                    "correctness": "CORRECT",
+                    "synonyms": [
+                        "boato",
+                        "fragore",
+                        "muggito",
+                        "rimbombo",
+                        "rintronamento",
+                        "rombo",
+                        "ruggito",
+                        "boato",
+                        "tuono",
+                        "Tuoni",
+                        "tuono",
+                        "rombo_di_tuono",
+                        "tuono",
+                        "tuono",
+                        "fragore",
+                        "frastuono",
+                        "rombo",
+                        "Tuoni",
+                        "tuono"
+                    ]
+                }
+            ]
+        }
+    ]
+}
